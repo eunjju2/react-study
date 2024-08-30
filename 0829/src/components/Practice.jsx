@@ -11,6 +11,17 @@ const Practice = () => {
         // })
         
 
+        //실습1 풀이
+        // const numbers = [5, 10, 15, 20, 25, 30];
+        // numbers.forEach((item, index) => {
+        //     if(item % 2 == 0) {
+        //         console.log(item);
+        //         numbers.splice(index, 1)
+        //     }
+        // }) 
+
+
+
         //실습2
         // const fruits = [
         //     {name : 'apple', amount : 2, price : 1000},
@@ -21,6 +32,20 @@ const Practice = () => {
         // const findName = 'banana'
 
         // const findFruit = fruits.find((fruit) => fruit.name === findName)
+
+
+        //실습2 풀이
+        // const fruits = [
+        //     {name : 'apple', quantity : 2, price : 1000},
+        //     {name : 'banana', quantity : 3, price : 2500},
+        //     {name : 'orange', quantity : 5, price : 5000},
+        // ]
+
+        // //객체를 리턴
+        // const result = fruits.find((fruit) => fruit.name === 'banana');
+
+
+
 
         //실습3-1(find()만 사용해야 하는데,, 이게 맞나?)
         const array = ["javascript", "css", "react", "html"];
@@ -36,12 +61,32 @@ const Practice = () => {
         // array.forEach((item) => {})
         // const findItem = array.filter(item => item.length >= 5)
 
+
+
+        //실습3 풀이
+        // const array = ["javascript", "css", "react", "html"];
+        // const result = array.find((item) => {
+        //     if(item.length > 4) {
+        //         document.write(`${item} : ${item.length}`)
+        //     }
+        // })
+
         //실습4
         // const numbers = [5, 19, 42, 36, 70];
         // const newArr = numbers.map(number => {
         //     const num = number * 2;
         //     number = (num % 3 === 0) ? num * 2 : num ;
         //     return number;
+        // })
+
+        //실습4 풀이
+        // const numbers = [5, 19, 42, 36, 70];
+        // const result = numbers.map((item) => item * 2);
+        // const newArr = result.map(item => {
+        //     if(item % 3 ===0){
+        //         item = item * 2;
+        //     }
+        //     return item;
         // })
 
     return (
