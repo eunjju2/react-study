@@ -1,0 +1,27 @@
+$primary-color : black;
+
+.container {
+    //지역변수
+    // $primary-color : red;
+    // background-color: $primary-color; //red
+
+    //!global
+    // $primary-color : red !global;
+    // background-color: $primary-color; //red
+
+    //!default
+    $primary-color : red !default;
+    background-color: $primary-color; //black
+    
+}
+
+.hello {
+    //전역변수
+    // color : $primary-color; //black
+
+    //!global
+    // color : $primary-color; //red
+
+    //!global
+    color : $primary-color; //black
+}
