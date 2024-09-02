@@ -1,0 +1,26 @@
+.todo-insert {
+  background-color: #88ABF2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.todo-insert .insert-text {
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.todo-insert .insert-button {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+}
