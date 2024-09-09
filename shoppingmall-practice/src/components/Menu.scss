@@ -1,0 +1,14 @@
+.menu-container {
+  background-color: rgba(80, 146, 240, 0.932);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   >*{
+    margin : 1rem;
+    color: white;
+    text-decoration: none;
+  }
+   
+}
